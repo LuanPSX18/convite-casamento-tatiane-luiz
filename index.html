@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Convite Tatiane e Luiz</title>
+</head>
+<body>
+    <header>Tatiana & Luiz</header>
+
+    <main>
+        <div>
+            <h1>Convite Casamento de Tatiana & Luiz</h1>
+            <h2>COM A BENÇÃO DE DEUS E DE SEUS PAIS</h2>
+            <ul>
+                <li>
+                    Loréncio Vicente
+                </li>
+                <li>
+                    Tereza Vicente
+                </li>
+                <li>
+                    Divani Gonçalves
+                </li>
+            </ul>
+            <img src="" alt="imagem do convite">
+            </div>
+    </main>
+
+    <section>
+        <h2>Confirme sua Presença</h2>
+        <h2>O casamento é no dia 09 Agosto 2025 ÁS 13:00h</h2>
+        <div class="local">
+            <p>Chácara Santa Antônio.</p>
+            <p>Estrada Municipal Mário Covas, 1171 - Valinhos</p>
+        </div>
+
+        <form action="/api/submitForm" method="post">
+            
+            <div>
+                <label for="nome_convidado">Seu nome completo:</label><br>
+                <input type="text" id="nome_convidado" name="nome_convidado" placeholder="Digite seu nome completo aqui" required>
+            </div>
+
+            <br>
+
+            <div>
+                <p>Você comparecerá ao casamento?</p>
+                
+                <input type="radio" id="confirm_sim" name="comparecera" value="sim" required>
+                <label for="confirm_sim">SIM, estarei lá!</label>
+                <br>
+                
+                <input type="radio" id="confirm_nao" name="comparecera" value="nao">
+                <label for="confirm_nao">NÃO poderei comparecer.</label>
+            </div>
+
+            <br>
+
+            <button type="submit">Enviar Confirmação</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/luan-soares-83a638195/" target="_blank">
+            <h3>Luan S Dev</h3>
+        </a><br>
+        <a href="https://github.com/LuanPSX18" target="_blank">
+            <p>Desenvolvedor Front-End</p>
+        </a>
+    </footer>
+</body>
+</html>
